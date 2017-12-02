@@ -107,7 +107,6 @@ extension ExpensesViewController: UITableViewDataSource {
         if let name = expense.name {
             cell.textLabel?.text = name
             cell.textLabel?.text = (cell.textLabel?.text)! + " - $" + "\(expense.amount)"
-            cell.backgroundColor = UIColor.blue.
         }
         
         if let date = expense.date {
